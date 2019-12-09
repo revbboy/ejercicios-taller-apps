@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+}
+main{
+    display: block;
+}
+
+.caja-principal {
+    background: #F2FCFF;
+    width: 640px;
+    text-align: center;
+}
+.caja-artistas {
+    display: grid;
+    grid-template-columns: 200px 200px 200px;   
+}
+article{
+    display: block;
+    width: 180px; height: 180px;
+    background-color: aqua;
+    margin: 15px 20px 5px; 
+    border-radius: 20%;
+    text-align: center;
+    }
+img{
+    position: relative;
+    border-top-width: 10px;
+    width: 125px; height: 125px;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+.nombres{
+    position: relative;
+    margin: 10px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 15px;
+    color: #FFFFFF;
+}
+h1 {
+    position: relative;
+    top: 20px;
+    text-align: center;
+    text-align-last: center;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 60px;
+    line-height: 56px;
+    color: #2C2C2C;
+}
