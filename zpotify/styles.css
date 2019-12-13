@@ -1,23 +1,27 @@
 body{
-    margin: 0;
+   
 }
-main{
-    display: block;
-}
+
 
 .caja-principal {
     background: #F2FCFF;
     width: 640px;
     text-align: center;
+    border-radius: 5%;
+    border: 2px solid #C3F1FF;
+    margin: 0 auto;
+    margin-bottom: 20px;
 }
 .caja-artistas {
+    
     display: grid;
     grid-template-columns: 200px 200px 200px;   
+    margin:  auto;
 }
 article{
     display: block;
     width: 180px; height: 180px;
-    background-color: aqua;
+    background: #5AD2AE;
     margin: 15px 20px 5px; 
     border-radius: 20%;
     text-align: center;
@@ -53,13 +57,13 @@ img{
 }
 h1 {
     position: relative;
-    top: 20px;
+    top: 5px;
     text-align: center;
     text-align-last: center;
-    font-family: Roboto;
+    font-family: 'Lucida Sans';
     font-style: normal;
     font-weight: normal;
-    font-size: 60px;
-    line-height: 56px;
+    font-size: 55px;
+    line-height: 30px;
     color: #2C2C2C;
 }
