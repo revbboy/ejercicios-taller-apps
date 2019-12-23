@@ -1,0 +1,139 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0 auto;
+    width: 1440px;
+    height: 1024px;
+
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: grid;
+    grid-template-columns: 0 2;
+    border: 5px solid #FF0000;
+    box-sizing: border-box;
+    
+    background: #FFFFFF;
+}
+main {
+    position: absolute;
+    width: 1440px;
+    height: 1024px;
+
+
+}
+.caja_principal{
+
+}
+.caja_izq {
+    width: 432px;
+    height: 1014px;
+
+    background: #FFFFFF;
+    border: 5px solid #5DFF11;
+    box-sizing: border-box;
+    float: left;
+
+}
+.lista_contacto{
+    width: 422px;
+    height: 225px;
+    
+
+    background: #FFFFFF;
+    border: 5px solid #2400FF;
+    box-sizing: border-box;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    color: #000000;
+
+    text-align: center;
+    line-height: 225px; 
+}
+.caja_izq_2{
+    width: 422px;
+    height: 779px;
+
+    background: #FFFFFF;
+    border: 5px solid #FBFF3E;
+    box-sizing: border-box;
+}
+.contactos{
+    width: 411px;
+    height: 143px;
+    
+    background: #FFFFFF;
+    border: 5px solid #2EFFFF;
+    box-sizing: border-box;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+    
+    padding-left: 24px;
+    text-align: left;
+    vertical-align: text-bottom;
+}
+.caja_der{
+    width: 998px;
+    height: 1014px;
+    margin-left: 433px;
+    border: 5px solid #E01FFF;
+    box-sizing: border-box;
+}
+.contacto_superior{
+    width: 988px;
+    height: 225px;
+    border: 5px solid #2400FF;
+    box-sizing: border-box;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    color: #000000;
+    
+    text-align: center;
+    line-height: 225px; 
+}
+.caja_ch{
+    width: 988px;
+    height: 779px;
+    border: 5px solid #00F0FF;
+    box-sizing: border-box;
+}
+.chat{
+    width: 978px;
+    height: 623px;
+    border: 5px solid #717171;
+    box-sizing: border-box;
+}
+.chat_es{
+    width: 978px;
+    height: 146px;
+    border: 5px solid #158C12;
+    box-sizing: border-box;
+    padding-left: 54px;
+}
+
+.caja_ch input::placeholder {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    
+    color: #8F8F8F;
+    line-height: 146px; 
+
+}
