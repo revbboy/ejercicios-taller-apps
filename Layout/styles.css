@@ -1,4 +1,4 @@
-body{
+body {
     margin: 0 auto;
     width: 1440px;
     height: 1024px;
@@ -18,7 +18,7 @@ body{
     width: 1440px;
     height: 1024px;
 
-    border: 5px solid #FF0000;
+    border: 5px solid #FFFFFF;
     box-sizing: border-box;
     left: 0;
     right: 0;
@@ -26,24 +26,31 @@ body{
     bottom: 0;
 
 }
-header{
+.titPrin{
+    margin-top: 83px;
+
+}
+
+header {
     width: 1430px;
     height: 225px;
 
     background: #FFFFFF;
-    border: 5px solid #B10FCB;
+    border: 5px solid #FFFFFF;
     box-sizing: border-box;
 }
-.caja_inferior{
+
+.caja_inferior {
     width: 1430px;
     height: 789px;
-    
+
     background: #FFFFFF;
-    border: 5px solid #74E6FF;
+    border: 5px solid #FFFFFF;
     box-sizing: border-box;
 
 }
-.cont_sec{
+
+.cont_sec {
     width: 428px;
     height: 779px;
 
@@ -51,33 +58,44 @@ header{
     border: 5px solid #5DFF11;
     box-sizing: border-box;
     float: left;
+    text-align: left;
+    padding-left: 25px;
 }
-.caj_der{
-    width: 993px;
-height: 779px;
 
-background: #FFFFFF;
-border: 5px solid #231FFF;
-box-sizing: border-box;
-margin-left: 428px;
+.caj_der {
+    width: 993px;
+    height: 779px;
+
+    background: #FFFFFF;
+    border: 5px solid #231FFF;
+    box-sizing: border-box;
+    margin-left: 428px;
 }
-.sub_barra{
+
+.sub_barra {
     width: 983px;
     height: 176px;
 
     background: #FFFFFF;
-    border: 5px solid #FF8A1F;
+    border: 5px solid #FFFFFF;
     box-sizing: border-box;
 }
-.layout{
+
+.layout {
     width: 983px;
     height: 593px;
 
     background: #FFFFFF;
-    border: 5px solid #FF1FF6;
+    border: 5px solid #FFFFFF;
     box-sizing: border-box;
 }
-h1{
+
+.IF {
+    width: 978px;
+    height: 588px;
+}
+
+h1 {
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;

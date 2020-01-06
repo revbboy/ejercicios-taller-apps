@@ -11,7 +11,6 @@ body {
   bottom: 0;
   left: 0;
   right: 0;
-
 }
 
 main {
@@ -68,6 +67,9 @@ color: #5AD2AE;
   border: 1px solid #C3F1FF;
   box-sizing: border-box;
   border-radius: 39.5px;
+  padding-left: 25px;
+  font-size: 24px;
+  line-height: 28px;
 }
 
 .formulario-login button {
@@ -81,6 +83,7 @@ color: #5AD2AE;
   border-radius: 39.5px;
   
   font-family: Roboto;
+  /*font-family: Roboto;*/
   font-style: normal;
   font-weight: normal;
   font-size: 24px;
@@ -98,11 +101,19 @@ color: #5AD2AE;
 .formulario-login small {
   color: gray;
 }
-
+.msg-error{
+  color: red;
+  text-align: center;
+}
+.hide{
+  display: none;
+}
+.visible{
+  display: block;
+}
 
 .formulario-login input::placeholder {
-  padding-left: 25px;
- 
+
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
